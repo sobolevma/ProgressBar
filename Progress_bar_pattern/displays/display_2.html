@@ -1,0 +1,59 @@
+
+	<label class="heading-format">Progress<label>
+	<label class="format-circle-wrap">
+		<div class="circle-wrap" >
+		  <div class="circle">
+		 <div class="mask half">
+			<div class="fill"></div>
+		  </div>
+
+		  
+		  <div class="mask full">
+		   <div class="fill"></div>
+		  </div>
+
+
+		  </div>
+		  <!-- новый блок div -->
+		  <div class="inside-circle"></div>
+		  
+		</div>
+	</label>
+
+	<table class="sliderPosition">
+	<tr>
+		<td>
+			<div>
+				<input id="volumeValue1" oninput="setProgressValue()">
+			</div>
+		</td>
+		<td class="text-size" valign="middle">&nbsp;&nbsp;&nbsp;Volume</td>
+	</tr>
+
+	<tr>
+		<td>
+			<!-- Rounded Animate switch -->
+			<label class="switch">
+			  <input id="sliderAnimate" type="checkbox" onclick="startAnimation()"> 
+			  <span class="slider round"></span>		 
+			</label>
+		
+		</td>
+		<td class="text-size" valign="middle">
+			&nbsp;&nbsp;&nbsp;Animate
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		<!-- Rounded Hide switch -->
+		<label class="switch">
+		  <input id="sliderHide" type="checkbox" onclick="hideObject()">
+		  <span class="slider round" ></span>
+		</label>
+		</td>
+		<td class="text-size" valign="middle">
+			&nbsp;&nbsp;&nbsp;Hide
+		</td>
+	</tr>
+	</table>
